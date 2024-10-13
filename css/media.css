@@ -1,0 +1,29 @@
+@media screen and (max-width:991px) {
+    .logo-words {
+        margin-right: auto;
+    }
+
+.container{
+    width: 100% !important;
+}
+    footer {
+        .container {
+            .form {
+                flex-direction: column !important;
+                
+                .icons{
+                    padding-top: 20px;
+                    i{
+                        height: 50px;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+@media screen and (max-width:1500px) {
+    .container{
+        width: 90% !important;
+    }
+}

@@ -1,0 +1,312 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #2c2e3a;
+}
+
+
+header {
+    nav {
+        padding: 30px 0 !important;
+        background-color: #1e202b;
+
+        .container {
+            .logo-words {
+                padding-top: 15px;
+
+                h1 {
+                    font-size: 15px;
+                }
+
+                p {
+                    font-size: 10px;
+                    color: #bfc1c8;
+                }
+            }
+
+            .navbar-collapse {
+                ul {
+                    li {
+                        .active {
+                            border: 2px solid #009ad8;
+                            color: #009ad8 !important;
+                        }
+
+                        a {
+                            font-size: 14px;
+                            padding: 5px 20px !important;
+                            border-radius: 50px;
+                            border: 2px solid #1e202b;
+                            transition: 500ms;
+
+                            &:hover {
+                                border: 2px solid #009ad8;
+                                color: #009ad8 !important;
+                            }
+                        }
+
+
+
+
+                    }
+
+
+                }
+            }
+        }
+    }
+}
+
+.fa-bars {
+    padding: 20px;
+    border: 2px solid #1e202b;
+    border-radius: 20px;
+    transition: 500ms;
+}
+
+.fa-bars:hover {
+    border: 2px solid #009ad8;
+    color: #009ad8 !important;
+}
+
+
+
+.img-bg {
+    background-image: url(../img/banner.png);
+    height: max-content;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 100px;
+}
+
+
+
+.bar-container {
+    margin: 0 auto;
+
+
+    .search-bar {
+        padding: 16px;
+        border-radius: 50px;
+        outline: none;
+        border: transparent solid 2px;
+        background-color: #1e202b;
+        color: white;
+        transition: 500ms;
+    }
+
+    .find {
+        background-color: #009ad8;
+        z-index: 99;
+        padding: 15px 40px;
+        border: none;
+        color: white;
+        font-size: 14px;
+        border-radius: 50px;
+        position: absolute;
+        right: 12.8%;
+        top: 26.3%;
+    }
+}
+
+.search-bar:is(:focus) {
+    border: #009ad8 solid 2px;
+}
+
+.content-container {
+    width: 60%;
+    border-radius: 20px;
+    overflow: hidden;
+
+    .row {
+        border-radius: 20px;
+
+        div {
+            .inner {
+                .card1-head {
+                    background-color: #2c2e3a;
+                    color: #bfc1c8;
+                   
+padding: 8.5px 10px;
+
+
+                    h2 {
+                        font-size: 14px;
+                        
+
+                    }
+
+                }
+
+                .card-body {
+                    background-color: #313448;
+                    color: #bfc1c8;
+                    
+                    height: 400px;
+
+                    h3 {
+                        font-size: 18px;
+                        padding-top: 40px;
+
+                    }
+
+                    .today-num {
+                        font-size: 90px;
+                        color: white;
+
+                    }
+
+                    .today-status {
+                        color: #009ad8;
+                    }
+                }
+            }
+        }
+
+        .card2-head {
+
+            color: #bfc1c8;
+            background-color: #1e202b;
+
+            h2 {
+                font-size: 14px;
+            }
+        }
+
+        .card2-body {
+            background-color: #282930;
+            height: 400px;
+            text-align: center;
+
+            .card2-img {
+                padding-top: 50px;
+                padding-bottom: 20px;
+
+            }
+
+            .card2-num {
+                font-size: 24px;
+
+            }
+
+            .card2-small {
+                font-size: 14px;
+                color: #bfc1c8;
+                padding-bottom: 10px;
+            }
+
+            .card2-status {
+                color: #009ad8;
+
+
+            }
+        }
+
+        .card3-head {
+            background-color: #2c2e3a;
+            color: #bfc1c8;
+
+            h2 {
+                font-size: 14px;
+
+            }
+        }
+
+        .card3-body {
+            height: 400px;
+            background-color: #313448;
+            text-align: center;
+        }
+
+        .card3-img {
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+
+        .card3-num {
+            font-size: 24px;
+
+        }
+
+        .card3-small {
+            font-size: 14px;
+            color: #bfc1c8;
+            padding-bottom: 10px;
+        }
+
+        .card3-status {
+            color: #009ad8;
+
+
+        }
+    }
+
+}
+
+
+footer {
+    background-color: #313448;
+    height: fit-content;
+    padding-bottom: 20px;
+
+    .container {
+        padding-top: 50px;
+
+        div {
+            div {
+
+                input {
+                    padding: 10px;
+                    border-radius: 20px;
+                    border: solid transparent 2px;
+                    outline: none;
+                    transition: 500ms;
+                    background-color: #1e202b;
+                    color: white;
+                }
+
+                button {
+                    padding: 8px 18px;
+                    right: 3px;
+                    top: 3px;
+                    bottom: 3px;
+                    border-radius: 20px;
+                    border: transparent solid 2px;
+                    background-color: #009ad8;
+                    color: white;
+
+                }
+            }
+
+            div {
+                i {
+                    color: #009ad8;
+                    background-color: #2c2e3a;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 50px;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    transition: 500ms;
+
+                    &:hover {
+                        color: white;
+                        background-color: #009ad8;
+                    }
+                }
+            }
+        }
+        p{
+            color: #bfc1c8;
+        }
+
+    }
+
+
+}
+
+.subscribe:focus {
+    border: #009ad8 solid 2px;
+}
